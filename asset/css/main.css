@@ -1,24 +1,38 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/revista_desafio\/asset\/sass\/base\/_reset\.scss}line{font-family:\000031}}
 body {
-  background-color: #F7F7F5;
-  font-family: "ind Siligur", "Arial", "sans-serif";
-  margin: 60px;
-  margin-top: 20px; }
+  background-color: white;
+  padding: 0;
+  margin: 0; }
 
-.logo {
-  font-family: "diplomata", "impact";
-  font-size: x-large; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/revista_desafio\/asset\/sass\/base\/_reset\.scss}line{font-family:\000036}}
+ul {
+  list-style: none; }
 
-main
-h1 {
-  font-family: "ind Siligur", "Arial", "sans-serif";
-  margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/revista_desafio\/asset\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+.header_logo {
+  margin-left: auto;
+  font-size: x-large;
+  font-family: "diplomata", impact, sans-serif; }
 
-p {
-  font-family: "ind Siligur", "Arial", "sans-serif";
-  text-align: justify; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/revista_desafio\/asset\/sass\/base\/_typography\.scss}line{font-family:\000036}}
+.noticias_contenido_h1 {
+  font-family: "ind siligur", Arial, sans-serif; }
 
-li {
-  display: inline;
-  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/revista_desafio\/asset\/sass\/base\/_typography\.scss}line{font-family:\000039}}
+.noticias_contenido_p {
+  font-family: "ind siligur", Arial, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/revista_desafio\/asset\/sass\/base\/_typography\.scss}line{font-family:\0000312}}
+.nav_item {
+  color: #170608;
+  font-weight: bold;
+  display: inline-block;
+  font-size: medium; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/Desktop\/revista_desafio\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\000031}}
+.nav {
+  padding: 30px;
+  display: block;
+  text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
