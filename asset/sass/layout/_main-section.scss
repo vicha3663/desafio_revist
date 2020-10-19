@@ -1,0 +1,17 @@
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 800px;
+    margin-left: 0.5em;
+    margin-right: 0,5em;
+}
+.columna1,
+.columna2,
+.columna3,
+.columna4,
+.columna5 {
+width: 100%;
+display: inline-block
+}
